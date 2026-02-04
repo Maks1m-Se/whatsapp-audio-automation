@@ -10,7 +10,18 @@ DROPBOX_TARGET = Path(r"C:\Users\maksi\Dropbox\Primebeats\Probeaufnahmen")
 FFMPEG = "ffmpeg"
 
 # WhatsApp-Audio-Endungen
-AUDIO_EXTS = {".aac", ".ogg", ".opus", ".m4a", ".mp4", ".wav", ".webm"}
+AUDIO_EXTS = {
+    ".aac",
+    ".ogg",
+    ".opus",
+    ".m4a",
+    ".mp4",
+    ".wav",
+    ".webm",
+    ".mpeg",
+    ".mp3",
+}
+
 
 # Optional: nach erfolgreicher Konvertierung Original archivieren
 ARCHIVE_ORIGINALS = False
