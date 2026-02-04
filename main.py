@@ -31,6 +31,11 @@ def create_status_window(on_quit):
     import tkinter as tk
 
     root = tk.Tk()
+    try:
+        root.iconbitmap("icon.ico")
+    except Exception:
+        pass
+
     root.title("WhatsApp Audio Automation")
     root.geometry("540x420")
     root.resizable(False, False)
